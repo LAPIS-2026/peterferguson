@@ -13,7 +13,7 @@ La Plata, 19–30 October 2026.
 | | Title | Slides |
 |---|---|---|
 | 1 | Discovery: finding streams in photometric surveys | [Lecture 1](https://docs.google.com/presentation/d/1v8M8euYTiYZrLkxg_90Nu5eOrT7rlGTflwK4_SHWAAY/edit?usp=drive_link) 
-| 2 | Project introduction | [slides](https://docs.google.com/presentation/d/1MLxs_F3bKFGd5GNdTyNYLsvzYCQTEW1aZ0Ug6bJgcmI/edit?usp=drive_link)
+| 2 | Project introduction | [slides](https://docs.google.com/presentation/d/1MLxs_F3bKFGd5GNdTyNYLsvzYCQTEW1aZ0Ug6bJgcmI/edit?slide=id.h1f697737480ac276_0_0#slide=id.h1f697737480ac276_0_0)
 | 3 | Modeling streams: data and simulations | slides |
 | 4 | Streams as dark matter probes, and the decade ahead | slides|
 
@@ -24,7 +24,8 @@ Build an isochrone matched filter and recover the ATLAS–Aliqa Uma stream in DE
 
 ## Student project
 
-[Project description (PDF)](project/lapis2026_streams_project.pdf)
+- [Project introduction slides (Google Slides)](https://docs.google.com/presentation/d/1MLxs_F3bKFGd5GNdTyNYLsvzYCQTEW1aZ0Ug6bJgcmI/edit?slide=id.h1f697737480ac276_0_0#slide=id.h1f697737480ac276_0_0)
+- [Project description (PDF)](project/lapis2026_streams_project.pdf)
 
 - `project/download_delve_cutouts.ipynb` — download DELVE DR3 Gold cutouts around the AAU streams with `lsdb`.
 - If downloading the data is difficult a Pre-made cutout can be found here: [link, 180 MB](https://drive.google.com/file/d/1wMQ4wCvaNaszgTu7Kd9wKl8sRmCeIo4L/view?usp=drive_link). Reach out if you need the full delve footprint (20Gb)
