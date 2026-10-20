@@ -92,3 +92,9 @@ export from the streamobs README. If `download_data.py` fails, see
   under pandas 3. Everything else works with either.
 - `s3fs` is only needed if you use the MAST S3 mirror of DELVE instead of the default
   `https://data.lsdb.io` endpoint.
+
+## Cómo clonar este repositorio
+
+```bash
+git clone https://github.com/LAPIS-2026/peterfergusson.git
+```
