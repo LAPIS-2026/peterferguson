@@ -1,0 +1,45 @@
+# XII LAPIS 2026 -- Stellar Streams in Photometric Surveys
+#
+#   conda env create -f environment.yaml
+#   conda activate lapis_streams
+#   python -m ipykernel install --user --name lapis_streams
+#
+# Option B of the project (stream injection) additionally needs ugali and
+# streamobs, which are installed from GitHub; see README.md "Setup".
+#
+# Tested 2026-10-20 on macOS with conda-forge: every package below plus
+# ugali + streamobs install and import on Python 3.14. Loosen the pins if a
+# solve fails on your platform.
+name: lapis_streams
+channels:
+  - conda-forge
+dependencies:
+  - python=3.14
+  # core numerics / plotting
+  - numpy>=2.0
+  - scipy>=1.13
+  - pandas>=2.2,<3        # galstreams 1.2.1 breaks under pandas 3's string dtype
+  - matplotlib>=3.9
+  - astropy>=6.0
+  - pyyaml
+  - tqdm
+  # sky maps
+  - healpy>=1.17
+  - skyproj>=2.2
+  - healsparse            # streamobs dependency
+  # fast I/O for the HATS / parquet cutouts (conda-forge builds avoid pip
+  # compiling llvmlite from source)
+  - pyarrow>=15
+  - numba
+  - llvmlite
+  - s3fs                  # only needed for the MAST S3 mirror of DELVE
+  # notebooks
+  - jupyterlab>=4.0
+  - notebook>=7.0
+  - ipywidgets>=8.1
+  - ipykernel
+  - pip
+  - pip:
+      - lsdb>=0.11        # DELVE DR3 Gold cutouts via HATS
+      - gala>=1.9         # orbits, potentials, particle-spray streams
+      - galstreams>=1.2   # tracks, frames, distances of known streams

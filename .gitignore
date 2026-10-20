@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data products (large; distributed via Google Drive)
+data/
+tutorial/
+lectures/
+**/data/*.parquet
+**/data/*.parq
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# project description: ship only the PDF
+project/*.tex
+project/*.bib
+OUTLINE.md
