@@ -97,5 +97,5 @@ export from the streamobs README. If `download_data.py` fails, see
 ## Cómo clonar este repositorio
 
 ```bash
-git clone https://github.com/LAPIS-2026/peterfergusson.git
+git clone https://github.com/LAPIS-2026/peterferguson.git
 ```
