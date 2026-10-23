@@ -12,10 +12,10 @@ La Plata, 19–30 October 2026.
 
 | | Title | Slides |
 |---|---|---|
-| 1 | Discovery: finding streams in photometric surveys | [Lecture 1](https://docs.google.com/presentation/d/1v8M8euYTiYZrLkxg_90Nu5eOrT7rlGTflwK4_SHWAAY/edit?usp=drive_link) 
+| 1 | Discovery: finding streams in photometric surveys | [slides](https://docs.google.com/presentation/d/1v8M8euYTiYZrLkxg_90Nu5eOrT7rlGTflwK4_SHWAAY/edit?usp=drive_link) 
 | 2 | Project introduction | [slides](https://docs.google.com/presentation/d/1MLxs_F3bKFGd5GNdTyNYLsvzYCQTEW1aZ0Ug6bJgcmI/edit?slide=id.h1f697737480ac276_0_0#slide=id.h1f697737480ac276_0_0)
 | 3 | Modeling streams: data and simulations and small scale dark matter | [slides](https://docs.google.com/presentation/d/1QCmb5e5XJ6mpyMAVl-U03ZcCsWKlUsxEacowHWOZkDA/edit?usp=sharing) |
-| 4 | Streams on larger scales, and the decade ahead | slides|
+| 4 | Streams on larger scales, and the new observations decade ahead | [slides](https://docs.google.com/presentation/d/1xWsOUh909Nx9hDrjqNj5jQQ3TccZOs3poP_cnwutFZ8/edit?usp=sharing)|
 
 ## Practice
 
